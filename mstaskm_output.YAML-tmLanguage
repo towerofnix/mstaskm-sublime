@@ -1,0 +1,15 @@
+# [PackageDev] target_format: plist, ext: tmLanguage
+---
+name: MSTASKM Output Panel Syntax
+scopeName: text.mstaskm_output
+fileTypes: []
+uuid: 4bda14e6-9f16-4226-b397-b841bb475eab
+
+patterns:
+- name: source.internal.mstaskm_output
+  match: ^\[!\].*$
+- name: source.stdout.mstaskm_output
+  match: ^\[O\].*$
+- name: source.stderr.mstaskm_output
+  match: ^\[E\].*$
+...

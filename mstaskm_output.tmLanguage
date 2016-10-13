@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fileTypes</key>
+	<array/>
+	<key>name</key>
+	<string>MSTASKM Output Panel Syntax</string>
+	<key>patterns</key>
+	<array>
+		<dict>
+			<key>match</key>
+			<string>^\[!\].*$</string>
+			<key>name</key>
+			<string>source.internal.mstaskm_output</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\[O\].*$</string>
+			<key>name</key>
+			<string>source.stdout.mstaskm_output</string>
+		</dict>
+		<dict>
+			<key>match</key>
+			<string>^\[E\].*$</string>
+			<key>name</key>
+			<string>source.stderr.mstaskm_output</string>
+		</dict>
+	</array>
+	<key>scopeName</key>
+	<string>text.mstaskm_output</string>
+	<key>uuid</key>
+	<string>4bda14e6-9f16-4226-b397-b841bb475eab</string>
+</dict>
+</plist>

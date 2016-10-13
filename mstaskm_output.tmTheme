@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>name</key>
+    <string>Brogrammer</string>
+    <key>settings</key>
+    <array>
+        <dict>
+            <key>settings</key>
+            <dict>
+                <key>background</key>
+                <string>#333333</string>
+                <key>caret</key>
+                <string>#ecf0f1</string>
+                <key>foreground</key>
+                <string>black</string>
+                <key>invisibles</key>
+                <string>#F3FFB51A</string>
+                <key>lineHighlight</key>
+                <string>#2a2a2a</string>
+                <key>selection</key>
+                <string>#2a2a2a</string>
+                <key>selectionForeground</key>
+                <string>#ffffff</string>
+                <key>findHighlight</key>
+                <string>#e74c3c</string>
+                <key>inactiveSelection</key>
+                <string>#e74c3c</string>
+                <key>gutter</key>
+                <string>#222222</string>
+                <key>gutterForeground</key>
+                <string>#888888</string>
+                <key>guide</key>
+                <string>#222222</string>
+                <key>activeGuide</key>
+                <string>#ffffff</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.internal</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>orange</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.stdout</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#EEEEEE</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>scope</key>
+            <string>source.stderr</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>red</string>
+            </dict>
+        </dict>
+    </array>
+    <key>uuid</key>
+    <string>7bb15b04-0474-4871-a395-d91a8ccde415</string>
+    <key>colorSpaceName</key>
+    <string>sRGB</string>
+    <key>semanticClass</key>
+    <string>theme.dark.brogrammer</string>
+    <key>author</key>
+    <string>Ken Wheeler</string>
+</dict>
+</plist>
